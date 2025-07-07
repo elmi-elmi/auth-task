@@ -1,0 +1,24 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  .label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    &:focus {
+      border-color: #0070f3;
+      outline: none;
+    }
+  }
+  .error {
+    color: #e00;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+}
